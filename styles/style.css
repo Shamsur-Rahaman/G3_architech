@@ -36,6 +36,9 @@ ul li a{
 .header-content{
     text-align: center;
 }
+.header-content img{
+    width: 100%;
+}
 .banner{
   margin-bottom: 30px;  
 }
@@ -56,10 +59,85 @@ ul li a{
     border-radius: 10px;
 }
 
+/* Responsiveness of Header for small devices*/
+@media screen and (max-width: 576px){
+    
+    header{
+        padding: 20px 40px;
+    }
+    nav{
+        flex-direction: column;  
+    }
+    .nav-header{
+        font-size: 1.8rem;
+    }
+    ul{
+        flex-direction: row;
+    }
+    ul li{
+        list-style: none; 
+    }
+    .header-content img{
+        width: 100%;
+    }
+    .banner{
+    margin-bottom: 15px;  
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-des{
+        font-size: .8rem;
+    }
+    .btn-primary{
+        padding: 7px 10px;
+        border-radius: 7px;
+    }
+}
 
+/* Responsiveness for medium devices */
+@media screen and (min-width: 577px) and (max-width: 768px){
+    
+    header{
+        padding: 20px 40px;
+    }
+    nav{
+        flex-direction: row;  
+    }
+    .nav-header{
+        font-size: 1.8rem;
+    }
+     .banner-title{
+        font-size: 2rem;
+    }
+}
 
-
-
-
-
-
+/* Responsiveness for large device */
+@media screen and (min-width: 769px) and (max-width: 992px){
+    
+   header{
+        padding: 30px 60px;
+    }
+    nav{
+        flex-direction: column;  
+    }
+    .nav-header{
+        font-size: 2.2rem;
+    }
+    ul{
+        flex-direction: row;
+    }
+    .banner{
+    margin-bottom: 15px;  
+    }
+    .banner-title{
+        font-size: 3rem;
+    }
+    .banner-des{
+        font-size: 1rem;
+    }
+    .btn-primary{
+        padding: 10px 15px;
+        border-radius: 10px;
+    }
+}
