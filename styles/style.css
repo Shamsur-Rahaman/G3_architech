@@ -50,7 +50,7 @@ ul li a{
     font-size: 1rem;
 }
 .btn-primary{
-    
+
     padding: 10px 15px;
     background-color: gold;
     text-decoration: none;
@@ -58,6 +58,58 @@ ul li a{
     font-weight: 500;
     border-radius: 10px;
 }
+/* Feature section style start */
+main{
+    margin-top: 30px;
+    padding: 30px 100px 0px 100px;
+}
+.feature{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.box{
+    width: 50%;
+}
+#team_photoes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+#team_photoes img{
+    width: 100%;
+}
+.feature_content{
+    padding-left: 70px;
+    padding-right: 90px;
+}
+    
+.feature-color-1{
+    color:  gray;
+}
+.feature-color-2{
+    color: black;
+}
+.feature-color-3{
+    color: tomato;
+}
+.feature-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131113;
+}
+.feature-des{
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
 
 /* Responsiveness of Header for small devices*/
 @media screen and (max-width: 576px){

@@ -2,5 +2,5 @@
 
 
 git add .
-git commit -m "responsiveness for banner added"
+git commit -m "team feature added"
 git push
