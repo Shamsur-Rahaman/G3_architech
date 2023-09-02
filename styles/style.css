@@ -101,6 +101,31 @@ main{
 .feature-des{
     margin-bottom: 25px;
 }
+/* Feature Section Responsiveness End */
+
+/* Some Facts Section Start */
+.sf-icon-section{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    /* background-color: gray; */
+}
+.sf-card{
+    width: 60%;
+    border:1px solid tomato ;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.sf-header{
+    font-size: 1.5rem;
+}
+
+/* Some Facts Section End */
+
+
+
 
 
 
@@ -292,3 +317,37 @@ main{
     margin-bottom: 25px;
 }
 }
+
+/* Team Responsiveness End */
+
+/* Some Facts Responsiveness Start */
+    /* For Small Device */
+    @media screen and (max-width: 576px) {
+        .sf-icon-section{
+            grid-template-columns: repeat(1, 1fr);
+            /* background-color: gray; */
+        }
+        .sf-card{
+            width: 80%;
+            padding: 10px 20px 10px 20px;          
+        }
+        .sf-header{
+            font-size: 1.6rem;
+        }
+    }
+    /* For Medium Device*/
+    @media screen and (min-width: 577px) and (max-width: 768px){
+        .sf-icon-section{
+            grid-template-columns: repeat(2, 1fr);
+            gap:40px;
+            /* background-color: gray; */
+        }
+        .sf-card{
+            width: 80%;
+            padding: 10px 20px 10px 20px;          
+        }
+        .sf-header{
+            font-size: 1.6rem;
+        }
+    }
+/* Some Facts Responsiveness End */
